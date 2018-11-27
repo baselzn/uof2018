@@ -12,7 +12,7 @@
         Moodle official app
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
+    <author href="http://sls.uof.ac.ae" email="basil@uof.ac.ae">
         Moodle Mobile team
     </author>
 
@@ -23,7 +23,7 @@
     <gap:platform name="ios" />
     <gap:platform name="android" />
 
-    <access origin="*" />
+    <access origin="http://sls.uof.ac.ae" />
     <access origin="tel:*" launch-external="yes" />
     <access origin="mailto:*" launch-external="yes" />
     <access origin="geo:*" launch-external="yes" />
@@ -31,9 +31,9 @@
     <allow-navigation href="cdvfile:*" />
     <allow-navigation href="content:*" />
     <allow-navigation href="data:*" />
-    <allow-navigation href="*" />
+    <allow-navigation href="http://sls.uof.ac.ae" />
 
-    <allow-intent href="*" />
+    <allow-intent href="http://sls.uof.ac.ae" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
